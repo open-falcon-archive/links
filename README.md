@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-# links
-falcon告警合并后的详细信息查看
-=======
-falcon links
-============
+falcon links: falcon告警合并后的详细信息查看
 
-## install dependency
+## Install dependency
 
     # yum install -y python-virtualenv
 
@@ -16,24 +11,22 @@ falcon links
     $ ./env/bin/pip install -r pip_requirements.txt -i http://pypi.douban.com/simple
 
 
-## init database and config
+## Init database and config
 
 - database schema: scripts/schema.sql
 - database config: frame/config.py
 
-## start
+## Start
 
     $ ./env/bin/python wsgi.py
 
     --> goto http://127.0.0.1:5090
 
 
-## run with gunicorn
+## Run with gunicorn
 
     $ . env/bin/activate
     $ bash run.sh
     
     --> goto http://127.0.0.1:5090
 
-
->>>>>>> af99ed2515850d30f7b19c9a50fae49e7427ca60
